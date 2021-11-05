@@ -5,25 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d8b928-5772-48fb-8de5-6d94fcd90e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/functional-programming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/either/applicative.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/either/eitherValidation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/either/eitherValidation2.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/either/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state/random.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state/sequenceS.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state/state.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/either/eitherValidation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/either/applicative.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/either/applicative.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/either/eitherValidation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/either/eitherValidation2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/either/theseValidation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/either/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/either/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/random.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/random.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/sequenceS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/sequenceS.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +28,9 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints>
-      <file url="file://$PROJECT_DIR$/either/eitherValidation.ts" />
-      <file url="file://$PROJECT_DIR$/either/index.ts" />
+      <file url="file://$PROJECT_DIR$/src/TaskEither/index.ts" />
+      <file url="file://$PROJECT_DIR$/src/either/eitherValidation.ts" />
+      <file url="file://$PROJECT_DIR$/src/either/index.ts" />
     </disable_hints>
   </component>
   <component name="Git.Settings">
@@ -46,6 +43,44 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/array/chain/array-chain.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/TaskEither.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/function.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/these/reduce-semigroup.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/either/eitherList.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Applicative.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Identity.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/HKT.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/record/record.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/either/theseProcessing.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Magma.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/either/theseValidation.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Apply.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/either/index.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/array/sequence/these.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/TaskEither/index.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Monoid.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/either/eitherChain.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/either/applicative.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/ReadonlyArray.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/these/bimap.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/These.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Array.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/array/apply/applyToListOfFunctions.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/State.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/either/bindTo.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Either.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Option.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/array/sequence/either.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Task.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Apply.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/Monad.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/array/sequence/option.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/fp-ts/lib/These.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/either/eitherValidation.ts" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -74,10 +109,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="C:\Users\Coridyn\WidgetWorks\wiwo-playground\functional-programming\node_modules\typescript\lib" />
     <property name="typescript.show.imports.popup" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -85,9 +121,93 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Coridyn\WidgetWorks\wiwo-playground\functional-programming" />
+      <recent name="C:\Users\Coridyn\WidgetWorks\wiwo-playground\functional-programming\either" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Coridyn\WidgetWorks\wiwo-playground\functional-programming\src" />
+      <recent name="C:\Users\Coridyn\WidgetWorks\wiwo-playground\functional-programming\src\array" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start ${current}">
+  <component name="RunManager" selected="Jest.either:.nested array, either, array:">
+    <configuration name="Array.chain:" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/array/chain/array-chain.ts" />
+      <test-names>
+        <test-name value="Array.chain:" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskEither:.tryCatch:" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/TaskEither/index.ts" />
+      <test-names>
+        <test-name value="TaskEither:" />
+        <test-name value="tryCatch:" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="either:.E.sequenceArray:" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/array/sequence/either.ts" />
+      <test-names>
+        <test-name value="either:" />
+        <test-name value="E.sequenceArray:" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="either:.bindTo:.handles invalid state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/either/bindTo.ts" />
+      <test-names>
+        <test-name value="either:" />
+        <test-name value="bindTo:" />
+        <test-name value="handles invalid state" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="either:.nested array, either, array:" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/array/sequence/either.ts" />
+      <test-names>
+        <test-name value="either:" />
+        <test-name value="nested array, either, array:" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="jest $currentFile$" type="JavaScriptTestRunnerJest">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration name="start ${current}" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -120,10 +240,25 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.tsc" />
-      <item itemvalue="npm.start" />
+      <item itemvalue="Jest.jest $currentFile$" />
+      <item itemvalue="Jest.TaskEither:.tryCatch:" />
+      <item itemvalue="Jest.either:.bindTo:.handles invalid state" />
+      <item itemvalue="Jest.either:.E.sequenceArray:" />
+      <item itemvalue="Jest.Array.chain:" />
+      <item itemvalue="Jest.either:.nested array, either, array:" />
       <item itemvalue="npm.start ${current}" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.tsc" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.either:.nested array, either, array:" />
+        <item itemvalue="Jest.Array.chain:" />
+        <item itemvalue="Jest.either:.E.sequenceArray:" />
+        <item itemvalue="Jest.either:.bindTo:.handles invalid state" />
+        <item itemvalue="Jest.TaskEither:.tryCatch:" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +268,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610168393933</updated>
-      <workItem from="1610168395031" duration="26318000" />
+      <workItem from="1610168395031" duration="31865000" />
+      <workItem from="1611811130885" duration="764000" />
+      <workItem from="1612493851386" duration="2121000" />
+      <workItem from="1612505791329" duration="2518000" />
+      <workItem from="1612842345138" duration="592000" />
+      <workItem from="1612876506346" duration="594000" />
+      <workItem from="1612879243866" duration="591000" />
+      <workItem from="1612932013012" duration="593000" />
+      <workItem from="1612944261181" duration="587000" />
+      <workItem from="1613349917426" duration="19748000" />
+      <workItem from="1613999257268" duration="1266000" />
+      <workItem from="1614084808567" duration="1394000" />
+      <workItem from="1614832797683" duration="629000" />
+      <workItem from="1615016140787" duration="594000" />
+      <workItem from="1615091824965" duration="593000" />
+      <workItem from="1616394473322" duration="2624000" />
+      <workItem from="1616503765751" duration="15300000" />
+      <workItem from="1616978672607" duration="1796000" />
+      <workItem from="1617508916071" duration="4185000" />
+      <workItem from="1617769627636" duration="1222000" />
+      <workItem from="1618143924408" duration="4004000" />
+      <workItem from="1618970771195" duration="7309000" />
+      <workItem from="1619155673256" duration="3605000" />
+      <workItem from="1619171931054" duration="9028000" />
+      <workItem from="1620965808850" duration="6473000" />
+      <workItem from="1621171201515" duration="595000" />
+      <workItem from="1621293274053" duration="595000" />
+      <workItem from="1622097189071" duration="15429000" />
+      <workItem from="1623373459799" duration="584000" />
+      <workItem from="1623628111560" duration="38000" />
+      <workItem from="1623628200560" duration="1190000" />
+      <workItem from="1625404563955" duration="595000" />
+      <workItem from="1625996041748" duration="66000" />
+      <workItem from="1626006509175" duration="594000" />
+      <workItem from="1628071396383" duration="12251000" />
+      <workItem from="1629678818804" duration="595000" />
+      <workItem from="1630541874675" duration="1220000" />
+      <workItem from="1631775287279" duration="582000" />
+      <workItem from="1633481108776" duration="1401000" />
+      <workItem from="1634599956887" duration="922000" />
+      <workItem from="1634705515252" duration="594000" />
+      <workItem from="1635077731273" duration="592000" />
+      <workItem from="1635122063031" duration="595000" />
+      <workItem from="1635725551347" duration="1645000" />
     </task>
     <servers />
   </component>
@@ -142,5 +320,50 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/fp-ts/lib/ReadonlyArray.js</url>
+          <line>80</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/TaskEither/index.ts</url>
+          <line>79</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/TaskEither/index.ts</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/TaskEither/index.ts</url>
+          <line>94</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/TaskEither/index.ts</url>
+          <line>104</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/TaskEither/index.ts</url>
+          <line>173</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/TaskEither/index.ts</url>
+          <line>178</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
